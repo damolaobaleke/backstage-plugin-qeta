@@ -1,5 +1,5 @@
 {
-  "name": "@drodil/backstage-plugin-qeta-common",
+  "name": "@nytimes/backstage-plugin-qeta-common",
   "description": "Backstage.io Q&A plugin common",
   "keywords": [
     "backstage",
