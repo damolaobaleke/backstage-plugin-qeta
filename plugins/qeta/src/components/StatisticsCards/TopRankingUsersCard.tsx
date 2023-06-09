@@ -14,7 +14,7 @@ import {
   ListItemText,
   Typography,
 } from '@material-ui/core';
-import { StatisticResponse } from '@drodil/backstage-plugin-qeta-common';
+import { StatisticResponse } from '@nytimes/backstage-plugin-qeta-common';
 import { useQetaApi } from '../../utils/hooks';
 import { TrophyIcon } from './TrophyIcon';
 import { useStyles } from './styles';

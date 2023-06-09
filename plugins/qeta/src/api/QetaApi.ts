@@ -1,7 +1,7 @@
 import {
   StatisticResponse,
   StatisticsRequestParameters,
-} from '@drodil/backstage-plugin-qeta-common';
+} from '@nytimes/backstage-plugin-qeta-common';
 import {
   AnswerRequest,
   AnswerResponse,

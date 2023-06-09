@@ -19,10 +19,10 @@ import {
 import {
   Statistic,
   StatisticsRequestParameters,
-} from '@drodil/backstage-plugin-qeta-common';
+} from '@nytimes/backstage-plugin-qeta-common';
 
 const migrationsDir = resolvePackagePath(
-  '@drodil/backstage-plugin-qeta-backend',
+  '@nytimes/backstage-plugin-qeta-backend',
   'migrations',
 );
 

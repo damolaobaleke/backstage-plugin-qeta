@@ -19,7 +19,7 @@ import isEmpty from 'lodash/isEmpty';
 import {
   StatisticResponse,
   StatisticsRequestParameters,
-} from '@drodil/backstage-plugin-qeta-common';
+} from '@nytimes/backstage-plugin-qeta-common';
 
 export const qetaApiRef = createApiRef<QetaApi>({
   id: 'plugin.qeta.service',

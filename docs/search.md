@@ -13,7 +13,7 @@ apiRouter.use('/search', await search(searchEnv, qetaEnv.database));
 
 ```typescript
 import { PluginDatabaseManager } from '@backstage/backend-common';
-import { QetaCollatorFactory } from '@drodil/backstage-plugin-qeta-backend';
+import { QetaCollatorFactory } from '@nytimes/backstage-plugin-qeta-backend';
 
 export default async function createPlugin(
   env: PluginEnvironment,

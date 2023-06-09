@@ -5,7 +5,7 @@
 Add the plugin to your backend app:
 
 ```bash
-cd packages/backend && yarn add @drodil/backstage-plugin-qeta-backend
+cd packages/backend && yarn add @nytimes/backstage-plugin-qeta-backend
 ```
 
 Create new file to packages/backend/src/plugins/qeta.ts:
@@ -14,7 +14,7 @@ Create new file to packages/backend/src/plugins/qeta.ts:
 import {
   createRouter,
   DatabaseQetaStore,
-} from '@drodil/backstage-plugin-qeta-backend';
+} from '@nytimes/backstage-plugin-qeta-backend';
 import { PluginEnvironment } from '../types';
 
 export default async function createPlugin({
@@ -48,14 +48,14 @@ apiRouter.use('/qeta', await qeta(qetaEnv));
 Add the plugin to your frontend app:
 
 ```bash
-cd packages/app && yarn add @drodil/backstage-plugin-qeta
+cd packages/app && yarn add @nytimes/backstage-plugin-qeta
 ```
 
 Expose the questions page:
 
 ```ts
 // packages/app/src/App.tsx
-import { QetaPage } from '@drodil/backstage-plugin-qeta';
+import { QetaPage } from '@nytimes/backstage-plugin-qeta';
 
 // ...
 
@@ -97,7 +97,7 @@ import { useEntity } from '@backstage/plugin-catalog-react';
 import { Container } from '@material-ui/core';
 import { stringifyEntityRef } from '@backstage/catalog-model';
 import React from 'react';
-import { QuestionsContainer } from '@drodil/backstage-plugin-qeta';
+import { QuestionsContainer } from '@nytimes/backstage-plugin-qeta';
 
 export const QetaContent = () => {
   const { entity } = useEntity();

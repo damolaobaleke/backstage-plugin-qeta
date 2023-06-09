@@ -1,7 +1,7 @@
 import {
   Statistic,
   StatisticsRequestParameters,
-} from '@drodil/backstage-plugin-qeta-common';
+} from '@nytimes/backstage-plugin-qeta-common';
 
 export interface Question {
   id: number;

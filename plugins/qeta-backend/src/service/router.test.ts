@@ -29,7 +29,7 @@ import {
   AuthorizeResult,
   PermissionEvaluator,
 } from '@backstage/plugin-permission-common';
-import { Statistic } from '@drodil/backstage-plugin-qeta-common';
+import { Statistic } from '@nytimes/backstage-plugin-qeta-common';
 
 const mostUpvotedQuestions: Statistic[] = [
   {

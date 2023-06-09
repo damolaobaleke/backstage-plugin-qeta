@@ -12,7 +12,7 @@ import { useStyles } from '../../utils/hooks';
 import { Controller, useForm } from 'react-hook-form';
 import { MarkdownEditor } from '../MarkdownEditor/MarkdownEditor';
 import { RequirePermission } from '@backstage/plugin-permission-react';
-import { qetaCreateAnswerPermission } from '@drodil/backstage-plugin-qeta-common';
+import { qetaCreateAnswerPermission } from '@nytimes/backstage-plugin-qeta-common';
 
 const getDefaultValues = (questionId: number) => {
   return { questionId, answer: '' };

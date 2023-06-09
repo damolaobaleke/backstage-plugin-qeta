@@ -1,7 +1,7 @@
 import HelpOutline from '@material-ui/icons/HelpOutline';
 import React from 'react';
 import { RequirePermission } from '@backstage/plugin-permission-react';
-import { qetaCreateQuestionPermission } from '@drodil/backstage-plugin-qeta-common';
+import { qetaCreateQuestionPermission } from '@nytimes/backstage-plugin-qeta-common';
 import { LinkButton } from '@backstage/core-components';
 
 export const AskQuestionButton = () => {

@@ -17,7 +17,7 @@ In packages/backend/src/plugins/qeta.ts, add the permissions from your PluginEnv
 import {
   createRouter,
   DatabaseQetaStore,
-} from '@drodil/backstage-plugin-qeta-backend';
+} from '@nytimes/backstage-plugin-qeta-backend';
 import { PluginEnvironment } from '../types';
 
 export default async function createPlugin({
@@ -43,7 +43,7 @@ export default async function createPlugin({
 Now handle the permissions in your own PermissionPolicy. See details from
 https://backstage.io/docs/permissions/plugin-authors/02-adding-a-basic-permission-check
 
-The Q&A permissions are exported from `@drodil/backstage-plugin-qeta-common` package and are:
+The Q&A permissions are exported from `@nytimes/backstage-plugin-qeta-common` package and are:
 
 - qetaReadPermission - Allows or denies reading of questions and answers
 - qetaCreateQuestionPermission - Allows or denies creating of questions

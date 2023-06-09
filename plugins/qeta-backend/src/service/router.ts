@@ -31,7 +31,7 @@ import {
   qetaCreateQuestionPermission,
   qetaPermissions,
   qetaReadPermission,
-} from '@drodil/backstage-plugin-qeta-common';
+} from '@nytimes/backstage-plugin-qeta-common';
 
 import {
   Attachment,

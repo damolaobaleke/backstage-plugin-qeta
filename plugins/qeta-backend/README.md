@@ -23,7 +23,7 @@ Create new file to packages/backend/src/plugins/qeta.ts:
 import {
   createRouter,
   DatabaseQetaStore,
-} from '@drodil/backstage-plugin-qeta-backend';
+} from '@nytimes/backstage-plugin-qeta-backend';
 import { PluginEnvironment } from '../types';
 
 export default async function createPlugin({
@@ -64,7 +64,7 @@ apiRouter.use('/search', await search(searchEnv, qetaEnv.database));
 
 ```typescript
 import { PluginDatabaseManager } from '@backstage/backend-common';
-import { QetaCollatorFactory } from '@drodil/backstage-plugin-qeta-backend';
+import { QetaCollatorFactory } from '@nytimes/backstage-plugin-qeta-backend';
 
 export default async function createPlugin(
   env: PluginEnvironment,
