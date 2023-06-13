@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "@nyt-backstage-plugin-qeta/root",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -61,5 +61,9 @@
       "prettier --write"
     ]
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "publishConfig": {
+    "registry": "https://artifactory.nyt.net/artifactory/api/npm/backstage-plugin-qeta",
+    "access": "restricted"
+}
 }
